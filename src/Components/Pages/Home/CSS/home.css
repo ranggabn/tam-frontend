@@ -1,0 +1,104 @@
+.home {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(../Images/background.jpg);
+  background-size: cover;
+  position: relative;
+  height: auto;
+}
+
+.home h1 {
+  font-weight: bold;
+  margin-top: 100px;
+  color: #212529;
+}
+
+.home h4 {
+  margin-top: 30px;
+  text-align: left;
+  color: #212529;
+}
+
+.part-2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.part-2 h1 {
+  text-align: center;
+  font-weight: 700;
+}
+.part-2 h5 {
+  text-align: center;
+  color: grey;
+}
+
+.img-card {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  margin: 20px auto;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.col-card {
+  display: flex;
+  align-items: stretch;
+}
+
+.last {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.part-3 {
+  margin-bottom: 50px;
+}
+
+.part-3 .card {
+  background-color: #212529;
+  padding-bottom: 30px;
+}
+
+.part-3 h3 {
+  text-align: center;
+  font-weight: 700;
+  color: antiquewhite;
+  margin-top: 30px;
+  border-bottom: solid;
+  line-height: 2em;
+}
+
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.carousel img {
+  max-height: 500px;
+  height: auto;
+  width: 100%;
+}
+
+.caption {
+  background: rgba(204, 238, 192, 0.7);
+}
+
+.img-fluid {
+  margin-top: 10px;
+  max-height: 250px;
+  max-width: 400px;
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-color: antiquewhite;
+}

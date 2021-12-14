@@ -1,13 +1,146 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  background-color: hsla(120, 100%, 75%, 0.3);
+}
+
+.logo {
+  width: 60px;
+  height: 30px;
+  margin-right: -10px;
+}
+
+.row-tentang-kami {
+  margin-top: 80px !important;
+  margin-bottom: 40px !important;
+}
+
+.col-tentang-kami {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: black;
+}
+
+.row-mid-tentang {
+  border-style: solid;
+  border-color: black;
+}
+
+.ceo-img {
+  max-height: 600px;
+  min-width: 250px;
+  height: auto;
+  width: auto;
+}
+
+.bismillah-img {
+  max-height: 90px;
+  height: auto;
+  width: 80%;
+  margin: 10px 0px !important;
+}
+
+.tentang-kami-textp {
+  text-align: justify;
+}
+
+.tentang-kami-texth5 {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.card-title-txt {
+  text-align: center;
+  margin: 200px auto !important;
+}
+
+.col-card-misi {
+  margin: 88px auto !important;
+}
+
+.card-title-misi {
+  text-align: justify;
+  margin: 20px auto !important;
+}
+
+.row-card-vm {
+  margin: 50px auto !important;
+}
+
+.motto {
+  border-style: double;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.card-about {
+  min-height: 260px;
+  height: auto;
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 80px !important;
+}
+
+.border-card {
+  border-style: groove;
+}
+
+.main-footer {
+  background-color: rgb(26, 25, 25);
+  color: antiquewhite;
+}
+
+.main-footer a:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.logo-footer {
+  max-height: 150px;
+  height: auto;
+  width: 80%;
+}
+
+.sosmed-footer {
+  max-height: 40px;
+  max-width: 40px;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
+
+.padding-card {
+  padding: 20px !important;
 }
